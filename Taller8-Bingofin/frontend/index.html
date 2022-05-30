@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <title>Bingo</title>
+    
+    <script src="./JavaScript/funciones.js"></script>
+ 
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                  <h2>M<span>T</span></h2>  
+                </div>
+                <ul class="menu">
+                    <li ><a class="active" href="#home">Home</a></li>
+                    <li><a href="#registrate">Registrate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Bienvenidos a su Bingo Virtual</h1>          
+      
+        <div id="juegos">
+              
+            <button class="btn1">Juegos Anteriores</button>
+            <div><img class="imag1" src="./imagenes/Bingo-PNG-HD.png" /></div>
+            <div id="formulario">
+               <img class="image" src="./imagenes/Bingo-PNG-HD.png" />
+               <form id="inicia_juego" autocomplete="off">
+                 <div>
+                   <br />
+                   <label for="player1">Jugador 1: </label> <br>
+                   <input id="player1" placeholder="Ingrese su usuario" /> <br>
+                   <input id="player1" placeholder="Ingrese Contraseña" />
+                 </div>
+                 <br />
+                 <div>
+                   <label for="player2">Jugador 2: <br>
+                       <input id="player1" placeholder="Ingrese su usuario" /> <br>
+                       <input id="player1" placeholder="Ingrese Contraseña" />
+                 </div>
+                 <br />
+                 <div>
+                   <label for="player3">Jugador 3: </label><br>
+                   <input id="player1" placeholder="Ingrese su usuario" /> <br>
+                   <input id="player1" placeholder="Ingrese Contraseña" />
+                 </div>
+                 <div>
+                   <br />
+                   <button id="1">Iniciar juego</button>
+                 </div>
+                 <br />
+               </form>
+               <br />
+             </div>
+         
+           </div>    
+    </div>
+
+    
+        <img id="imagen2" src="./imagenes/buda-feliz.png" alt="buda-feliz">
+          <div class="registrate_info">
+            <form id="registrate" class="registrate" onsubmit="carga(event)"><br>
+                <h1 class="registrate__titulo">Registrate</h1> <br>
+              
+                <input type="text" id="nombre" class="registrate__input"> 
+                <label for="" class="registrate__label" >Nombres</label>
+        
+                <input type="email"  id="correo" class="registrate__input" >
+                <label for="" class="registrate__label" >Correo</label>
+
+                <input type="text" id="usuario" class="registrate__input" >
+                <label for="" class="registrate__label" >Usuario</label>
+        
+                <input type="password" id="password" class="registrate__input" > 
+                <label for="" class="registrate__label" >Contraseña</label> 
+        
+                <button type="submit" id="enviar" class="enviar">Enviar</button><br>
+                <button type="reset" id="borrar" class="borrar">Borrar</button>
+            </form>
+          </div>
+ 
+     
+  </body>
+</html>

@@ -69,6 +69,14 @@ git clone https://github.com/migueltorresd/Bingo
 ```
 run
 ```
+# Frontend 
+
+1. Clonar el repositorio:
+```
+git clone https://github.com/migueltorresd/Bingo
+ ```
+ 2. Si se ejecuta desde Visual Studio code se recomienda la instalacion del plugin live server para que el ejecute desde el puerto localhost://5050
+ ```
 ------------------------------------------------------------------------------------------------------------------------
 ### Tecnologias
 

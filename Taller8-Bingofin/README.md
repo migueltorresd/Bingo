@@ -82,6 +82,7 @@ El taller fue desarrollado usando.
    ## Estado
 >En revisión para el administrador.   
 >Última actualización 29/05/2022.   
+>Se logra conexion entre nodejs,mongo y frond.
 >No se Logra conexion entre el backend2 y el frontend.
 
 ------------------------------------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+# Taller 8 Bingo - Cantera 2 -Sofka
+
 
 ## Table of Contents
 1. [Informacion General](#informacion-general)
@@ -5,6 +7,8 @@
 3. [Instalacion](#instalacion)
 4. [Tecnologias](#tecnologias)
 5. [Estado](#estado)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Informacion General
 En este proyecto cree un juego de bingo utilizando todos los conocimientos adquridos tanto como de la cantera 1 y la 2, es gratificante saber que apesar de que no selogro el 100% del objetivo se adquirio muchisimo conocimiento.
@@ -16,7 +20,9 @@ El juego se compone de una pantalla inicial donde tenemos un login por usuario y
 luego de registrase y loguarse determinara si hay mas jugadores o de lo contrario espera un par de minutos para continuar.
 
 por ultimo encontramos el juego donde tendra su tarjeton con numeros aleatorios y a medida que va transcurriendo el tiempo van saliendo las balotas, el usuario debe estar muy atento para ir llenando su tarjeton al finalizar debe dar click en el boton !!BINGO!!.
----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Requerimientos
 La empresa "El Gran Buda", una casa de juegos de apuestas y azar, requiere desarrollar un Bingo Virtual, bajo los siguientes requerimientos.
 
@@ -72,11 +78,13 @@ El taller fue desarrollado usando.
    - Frontend: Visual Studio code y HTML, CSS, JS.
    - Bases de datos: MongoDB y MySQL Workbench 8.0.
 
+------------------------------------------------------------------------------------------------------------------------
    ## Estado
 >En revisión para el administrador.   
 >Última actualización 29/05/2022.   
 >No se Logra conexion entre el backend2 y el frontend.
 
+------------------------------------------------------------------------------------------------------------------------
 
 ## Autor  
  Miguel Angel Torres Diaz
